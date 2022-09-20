@@ -93,7 +93,8 @@ main {
     width: 80%;
     min-width: 500px;
     font-weight: 800;
-    color:  #e17f2f;
+    color:#e17f2f;
+    text-align: start;
 }
 
 .hero-info p {
