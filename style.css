@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 
 *{
 box-sizing: border-box;  
@@ -22,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
+    height: 65px;
     padding: 0px 30px 0px 30px;
     position: fixed;
     top: 0;
@@ -92,15 +93,29 @@ main {
     font-size: 43px;
     width: 80%;
     min-width: 500px;
-    font-weight: 800;
-    color:#e17f2f;
+    font-weight: 500;
+    color:#1d142c;
     text-align: start;
+}
+
+.hero-info span {
+    font-family: Old Standard TT;
+    font-size: 43px;
+    font-style: italic;
+    font-weight: 700;
+    color: #1d142c;
+    letter-spacing: 3px;
+}
+
+.hero-info img {
+    width: 50px;
+    padding: 3px;
 }
 
 .hero-info p {
     font-size: 25px;
     width: 70%;
-    color: #1d142c;
+    color: #585755;
 }
 
 .hero-info a {
@@ -136,19 +151,20 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
 #info h2 {
     font-size: 32px;
-    font-weight: 800;
+    font-weight: 600;
     color: #1d142c;
+    letter-spacing: 1px;
 }
 
 #info p {
     text-align: center;
     font-size: 25px;
-    padding: 8px 80px;
+    padding: 8px 70px;
 }
 
 /*footer*/
@@ -160,7 +176,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 footer p {
@@ -171,6 +187,6 @@ footer p {
 
 footer span {
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     color: #ebe9e8;
 }
