@@ -32,6 +32,7 @@ header {
 .logo {
     height: 150%;
     width: auto;
+    margin-bottom: 4px;
     cursor: pointer;
 }
 
@@ -42,7 +43,7 @@ header {
 } 
 
 .navbar {
-    gap: 100px;
+    gap: 150px;
 }
 
 .navbar-list {
@@ -151,7 +152,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
+    gap: 25px;
 }
 
 #info h2 {
@@ -163,8 +164,8 @@ main {
 
 #info p {
     text-align: center;
-    font-size: 25px;
-    padding: 8px 70px;
+    font-size: 23px;
+    padding: 15px 30px;
 }
 
 /*footer*/
