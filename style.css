@@ -164,7 +164,15 @@ main {
 #info p {
     text-align: center;
     font-size: 23px;
-    padding: 15px 30px;
+    padding: 15px 90px;
+}
+
+#info span {
+    font-family: Old Standard TT;
+    font-size: 23px;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 /*footer*/
