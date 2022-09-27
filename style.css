@@ -78,7 +78,7 @@ main {
     padding: 70px 0;
     max-width: 1200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -125,11 +125,16 @@ main {
     font-size: 17px;
     font-weight: 500;
     text-align: center;
-    width: 40%;
-    padding: 8px 8px;
+    width: 30%;
+    padding: 5px 5px;
 }
 
-.btn-home .btn {
+.btn-hero {
+    display: flex;
+    gap: 25px;
+}
+
+.btn-hero .btn-2do {
     color: #74975f;
     background-color: #dfd5c6;
     border-radius: 10px;
@@ -143,8 +148,8 @@ main {
     justify-content: center;
 }
 
-/*section info*/
-#info {
+/*section about*/
+#about {
     padding: 70px 0;
     max-width: 1200px;
     display: flex;
@@ -154,20 +159,20 @@ main {
     gap: 25px;
 }
 
-#info h2 {
+#about h2 {
     font-size: 32px;
     font-weight: 600;
     color: #1d142c;
     letter-spacing: 1px;
 }
 
-#info p {
+#about p {
     text-align: center;
     font-size: 23px;
     padding: 15px 90px;
 }
 
-#info span {
+#about span {
     font-family: Old Standard TT;
     font-size: 23px;
     font-style: italic;
