@@ -180,6 +180,143 @@ main {
     letter-spacing: 2px;
 }
 
+/*section cards/gallery*/
+
+#gallery {
+    padding: 80px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+}
+
+#gallery h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #1d142c;
+    letter-spacing: 1px;
+}
+
+.info-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.info-card img {
+width: 200px;
+height: 200px;
+}
+
+.info-card {
+    width: 300px;
+    height: 290px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-card h4 {
+    color: #b4742f;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.info-card a {
+    background-color:#74975f;
+    color: #ebe9e8;
+    padding: 8px 3px;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+}
+
+/*section contacto (info y redes)*/
+
+.container {
+    position: relative;
+    min-width: 900px;
+    min-height: 460px;
+    display: flex;
+    background-color:#ebe9e8;
+}
+
+.container .contactInfo {
+    position: absolute;
+    top: 40px;
+    width: 300px;
+    height: calc(100% - 80px);
+    background-color: #74975f;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container .contactInfo h3 {
+    font-size: 38px;
+    font-weight: 800;
+    color:#ebe9e8;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.container .contactInfo ul.info {
+    position: relative;
+    margin: 20px 0;
+}
+
+.container .contactInfo ul.info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    align-items: flex-start;
+}
+
+.container .contactInfo ul.info li img{
+    width: 35px;
+}
+
+.container .contactInfo ul.info li p{
+    font-size: 24px;
+    font-weight: 500;
+    color: #1d142c;
+    letter-spacing: 1px;
+    margin-left: 10px;
+}
+
+.container .contactInfo ul.sci li img {
+    position: relative;
+    list-style: none;
+    width: 30px;
+}
+
+/*section contacto (mapa)*/
+.container .contactMap {
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 200px;
+}
+
+.container .contactMap h3 {
+    font-size: 38px;
+    font-weight: 800;
+    color: #1d142c;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
 /*footer*/
 footer {
     background: #a34e3e;
