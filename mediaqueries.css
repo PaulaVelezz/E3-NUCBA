@@ -46,6 +46,11 @@
         display: block;
         width: 70%;
         font-size: 37px;
+        text-align: start;
+    }
+
+    .hero-info p {
+        font-size: 23px;
     }
 
     .hero-info a {
@@ -54,9 +59,12 @@
 
     .btn-hero {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end;
         width: 70%;
+    }
+
+    .hero-img {
+        display: none;
     }
 
     #about h2 {
@@ -90,8 +98,47 @@
 
 /*Small devices*/
 @media (max-width: 570px) {
-    .navbar .navbar-list{
+/*menu hamburguesa en contrucción
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background:#ebe9e8;
+        border: 2px solid #74975f;
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 45px 30px;
+        gap: 20px;
+        z-index: 2;
         display: none;
+    }
+
+    .menu-label {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .menu-label img {
+        height: 35px;
+        width: 35px;
+    }
+
+    #menu-toggle:checked + .navbar-list {
+        display: flex;
+    }
+*/
+    .navbar {
+        display: none;
+
+    }
+
+    .cart-icon {
+        height: 36px;
     }
 
     header {
@@ -103,22 +150,21 @@
 
     .hero-info h1 {
         display: block;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        font-size: 30px;
+        text-align: start;
     }
 
    .hero-info p {
-        display: block;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
+        font-size: 21px;
+    }
+
+    .hero-info a {
+        font-size: 13px;
     }
 
     .btn-hero {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-end;
     }
 
     .hero-img {
@@ -135,7 +181,7 @@
     }
 
     #about p {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #gallery h2 {

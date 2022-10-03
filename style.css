@@ -65,6 +65,15 @@ header {
     transform: scale(1.1);
 }
 
+/*ocultar/mostrar menu*/
+.menu-label {
+    display: none;
+}
+
+#menu-toggle {
+    display: none;
+}
+
 /*main*/
 main {
     background: #dfd5c6;
