@@ -196,7 +196,30 @@
         flex-wrap: wrap;
     }
 
-    footer{
+    .container {
+        position: relative;
+        min-width: 500px;
+        min-height: 400px;
+        display: flex;
+        background-color:#ebe9e8;
+    }
+
+    .container .contactInfo {
+        position: absolute;
+        top: 50px;
+        left: 100px;
+        width: 300px;
+    }
+
+    .contactInfo h3 {
+        font-size: 30px;
+    }
+
+    .contactMap {
         display: none
+    }
+
+    footer{
+        display:none
     }
 }
