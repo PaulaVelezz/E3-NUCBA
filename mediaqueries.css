@@ -1,22 +1,15 @@
 /*Large devices*/
-@media (max-width: 992px) {
-
-header {
-    display: none;
-}
-
+@media (max-width: 1024px) {
 .hero-info {
     width: 90%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    display: flex;
 }
 
 .hero-info h1 {
     display: block;
     width: 90%;
     max-width: 500px;
-    text-align: center;
+    text-align: start;
     align-items: center;
     justify-content: center;
 }
@@ -24,16 +17,12 @@ header {
 .hero-info p {
     width: 60%;
     max-width: 600px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .btn-hero {
-    justify-content: center;
+    display: flex;
     width: 80%;
-}
-
-.hero-img {
-    display: none;
 }
 
 #about {
@@ -46,19 +35,94 @@ header {
 }
 }
 
-/*Small devices*/
-@media (max-width: 576px) {
+/*Medium devices*/
+@media (max-width: 768px) {
+    .hero-info {
+        width: 70%;
+        display: flex;
+    }
+
     .hero-info h1 {
+        display: block;
+        width: 70%;
+        font-size: 37px;
+    }
+
+    .hero-info a {
+        font-size: 15px;
+    }
+
+    .btn-hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    #about h2 {
+        font-size: 32px;
+    }
+
+    #about p {
+        font-size: 20px;
+    }
+
+    #gallery h2 {
+        font-size: 32px;
         text-align: center;
         align-items: center;
         justify-content: center;
-        width: 70%;
-        max-width: unset;
     }
 
-    .hero-info p {
-        width: 70%;
-        max-width: unset;
+    .info-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info-card h4 {
+        font-size: 22px;
+    }
+
+    .info-card a {
+        font-size: 15px;
+    }
+}
+
+/*Small devices*/
+@media (max-width: 570px) {
+    .navbar .navbar-list{
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        padding: unset;
+    }
+
+    .hero-info h1 {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+   .hero-info p {
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-img {
+        display: none;
     }
 
     #about {
@@ -67,10 +131,26 @@ header {
 
     #about h2 {
         width: 100%;
-        font-size: 24px;
+        font-size: 29px;
     }
 
     #about p {
         font-size: 16px;
+    }
+
+    #gallery h2 {
+        font-size: 29px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info-cards-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer{
+        display: none
     }
 }
